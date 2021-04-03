@@ -4,11 +4,13 @@ public class First {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter Sting a");
+        System.out.println("Enter String a");
         String a =sc.next();
 
-        System.out.println("Enter Sting b");
+        System.out.println("Enter String b");
         String b =sc.next();
+        System.out.println("Enter String c");
+        String c =sc.next();
 
         System.out.println("Sting concatination "+a+b);
         int count=0;
